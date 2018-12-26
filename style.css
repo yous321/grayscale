@@ -1,4 +1,33 @@
-body{
-background-image:url(./imagegit/images/demo-image-02.jpggit );
+.banner{
+    background-image: url('./imagegit/images/bg-masthead.jpg');
+    background-size:cover;
+    height:700px;
+    background-position: center;
+}
 
+nav{
+
+    font-family: 'nunito';
+    position: 'fixed';
+    font-size: 1rem;
+ 
+}
+h1{
+    font-family: 'Varela Round';
+    background-image:-webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+header button{
+    background-color:#64a19d!important ;
+    color:white !important;
+    font-family: 'Varela Round';
+
+}
+nav a{
+    color: rgba(255,255,255,.5) !important;
+    font-family: 'Varela Round';
+    font-size: 15px;
 }
