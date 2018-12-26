@@ -1,3 +1,4 @@
+
 .banner{
     background-image: url('./imagegit/images/bg-masthead.jpg');
     background-size:cover;
@@ -30,4 +31,21 @@ nav a{
     color: rgba(255,255,255,.5) !important;
     font-family: 'Varela Round';
     font-size: 15px;
+}
+
+/* fin header */
+.contenu{
+    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+    color:#7E7E7E;
+    text-align: center;
+   
+    font-size:1rem
+}
+.contenu span{
+    color: #64a19d;
+}
+.contenu h2{
+    font-size:30px;
+    font-weight: 300;
+    color: white;
 }
