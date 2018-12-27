@@ -91,3 +91,42 @@ header h5{
     height: 3px;
     
 }
+/*fin contenue2*/
+
+.contenue3{
+    background:  -webkit-linear-gradient(top, rgba(77, 76, 76, 0.561), rgb(0, 0, 0)),url('./imagegit/bg-signup.jpg');
+
+    background-size:cover;
+    height:500px;
+    background-position: center;
+}
+
+.contenue3 h2{
+    letter-spacing:0.0625em;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+}
+i{
+ size:10x;
+}
+.forme{
+    padding-top:10rem;
+}
+input{
+    font-family: 'varela round';
+    letter-spacing: .15rem;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+.contenue3 button{
+    background-color:#64a19d!important ;
+    color:white !important;
+    font-family: 'Varela Round',sans-serif;
+    text-transform: uppercase;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    letter-spacing: .15rem;
+}
+/*fin contenue3*/
