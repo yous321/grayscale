@@ -1,6 +1,7 @@
 
 .banner{
-    background-image: url('./imagegit/images/bg-masthead.jpg');
+    background:  -webkit-linear-gradient(top, rgba(77, 76, 76, 0.561), rgb(0, 0, 0)),url('./imagegit/images/bg-masthead.jpg');
+
     background-size:cover;
     height:700px;
     background-position: center;
@@ -18,28 +19,29 @@ h1{
     background-image:-webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    letter-spacing: .8rem;
 }
 
 header button{
     background-color:#64a19d!important ;
     color:white !important;
-    font-family: 'Varela Round';
-
+    font-family: 'Varela Round',sans-serif;
 }
 nav a{
     color: rgba(255,255,255,.5) !important;
     font-family: 'Varela Round';
     font-size: 15px;
 }
+header h5{
+    color:#878787;
+}
 
 /* fin header */
 .contenu{
-    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+    background:  -webkit-linear-gradient(bottom, rgba(77, 76, 76, 0.561), rgb(0, 0, 0));
     color:#7E7E7E;
     text-align: center;
-   
-    font-size:1rem
+    font-size:1rem;
 }
 .contenu span{
     color: #64a19d;
@@ -48,4 +50,44 @@ nav a{
     font-size:30px;
     font-weight: 300;
     color: white;
+}
+/*fin contenu et debut contenu2*/
+
+.contenue2{
+     margin-top:100px; 
+    padding-bottom: 10rem;
+}
+
+.margin{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.droite{
+    border-left: solid 8px #64A19D;
+    letter-spacing: .0625em;
+    line-height: 1.5;
+}
+.droite>h3{
+    font-size:1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.droite>p{
+    color: rgba(0,0,0,.5)!important;
+}
+.back{
+
+  background-color: #161616!important;
+}
+
+.contenue2 h3{
+    color:white !important;
+}
+.contenue2 p{
+    color:grey !important;
+}
+.tictac{
+    background:#64a19d;
+    height: 3px;
+    
 }
